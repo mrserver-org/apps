@@ -1,6 +1,9 @@
 # MrServer Apps
 The official MrServer Apps Repository
 
+## The Website
+The website is live [here](https://mrserver-org.github.io/apps/). and is made with [Holo.js](https://holo.js.org)
+
 ## Publication Rules
 1. Must be legit (no scams)
 2. Tested properly (mostly on Chromium, Firefox and Safari)
