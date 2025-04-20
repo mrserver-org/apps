@@ -1,0 +1,11 @@
+[
+  {
+    "name": "Test",
+    "listed": false,
+    "description": "A sample app to test MrServer's App repository.",
+    "logo": null,
+    "banner": null,
+    "publisher": "TheBetterInternet",
+    "uuid": "test"
+  }
+]
