@@ -160,7 +160,7 @@ card.innerHTML = `
 <div class="publisher-avatar">
   <img src="https://github.com/${app.publisher}.png" alt="${app.publisher}" onerror="this.src=''">
 </div>
-${app.publisher}
+<a href="https://github.com/${app.publisher}">@${app.publisher}</a>
   </div>
 </div>
 <div class="app-description">${app.description || 'No description provided'}</div>
