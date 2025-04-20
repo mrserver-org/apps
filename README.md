@@ -11,13 +11,9 @@ The website is live [here](https://mrserver-org.github.io/apps/). and is made wi
 
 ## How to publish an app
 1. Open a GitHub Issue with the name of your app.
-2. Use this format:
-```text
-[insert your metadata here]
-
-- [x] I have read the rules.
-```
-3. wait for verification from our team :) (note: might take hours, days or even weeks)
+2. Use the template "Publishing an app"
+3. Fill all the required things
+4. Wait for verification from our team :) (note: might take hours, days or even weeks)
 
 ## Metadata Format
 ```json
