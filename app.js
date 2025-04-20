@@ -109,7 +109,7 @@ let currentFilter = urlParams.has("install") ? 'all' : 'listed';
 
 async function fetchApps() {
   try {
-const response = await fetch('/metadata.json');
+const response = await fetch('./metadata.json');
 apps = await response.json();
 filteredApps = [...apps];
 
@@ -148,7 +148,7 @@ const bannerUrl = app.banner || '';
 const logoUrl = app.logo || null;
 
 card.innerHTML = `
-  <div class="app-banner" style="background-image: url('\${bannerUrl}')">
+  <div class="app-banner" style="background-image: url('${bannerUrl}')">
 <div class="app-logo">
   ${logoUrl ? `<img src="${logoUrl}" alt="${app.name} logo">` : `<i class="fas fa-cube app-logo-placeholder"></i>`}
 </div>
