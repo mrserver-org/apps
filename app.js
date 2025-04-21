@@ -68,7 +68,7 @@ Command copied to clipboard!
 <div>
 <p>Run the following command:</p>
 <div class="command-box">
-<code id="modal-command">mr -a app-uuid</code>
+<code id="modal-command">mr app-install app-uuid</code>
 <button class="command-copy" id="modal-copy-btn">
 <i class="far fa-copy"></i>
 </button>
@@ -169,7 +169,7 @@ card.innerHTML = `
 <i class="fas fa-download"></i> Install
   </button>
   <div class="app-uuid">
-<span class="copy-cmd" data-command="mr -a ${app.uuid}" title="Copy install command">
+<span class="copy-cmd" data-command="mr app-install ${app.uuid}" title="Copy install command">
   <i class="far fa-copy"></i>
 </span>
 ${app.uuid}
@@ -242,7 +242,7 @@ console.error('Failed to copy text: ', err);
 }
 
 function showInstallModal(uuid) {
-  modalCommand.textContent = `mr -a ${uuid}`;
+  modalCommand.textContent = `mr app-install ${uuid}`;
   installModal.classList.add('active');
 }
 
