@@ -10,9 +10,9 @@ The website is live [here](https://mrserver-org.github.io/apps/). and is made wi
 3. No obsfucated code
 
 ## How to publish an app
-1. Open a GitHub Issue with the name of your app.
-2. Use the template "Publishing an app"
-3. Fill all the required things
+1. Fork this repo
+2. Add your files and manifest
+3. Open a pull request
 4. Wait for verification from our team :) (note: might take hours, days or even weeks)
 
 ## Metadata Format
@@ -24,5 +24,6 @@ The website is live [here](https://mrserver-org.github.io/apps/). and is made wi
   "logo": "image-url",
   "banner": "image-url",
   "publisher": "github-username",
+  "uuid": "short-id-that-represents-your-app"
 }
 ```
