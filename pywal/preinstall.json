@@ -1,0 +1,5 @@
+{
+  "shell": "echo",
+  "shellFlags": "",
+  "command": "Pywal for MrServer requires pywal to be installed on the system. also use `wal -i path/to/wallpaper` to generate colors."
+}
