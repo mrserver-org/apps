@@ -16,5 +16,14 @@
     "banner": "https://cdn2.steamgriddb.com/hero_thumb/0c59cdc2503ef2319e9ba065276b46fc.jpg",
     "publisher": "s-ar2005",
     "uuid": "doom"
+  },
+  {
+    "name": "Pywal",
+    "listed": true,
+    "description": "Generate color schemes from wallpapers and apply them to MrServer (including the wallpaper)",
+    "logo": "https://i.imgur.com/5WgMACe.gif",
+    "banner": null,
+    "publisher": "TheBetterInternet",
+    "uuid": "pywal"
   }
 ]
